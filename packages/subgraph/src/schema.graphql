@@ -1,7 +1,7 @@
-type Enlisted @entity {
-    id: Bytes!
-    account: Bytes!
-    blockNumber: BigInt!
-    blockTimestamp: BigInt!
-    transactionHash: Bytes!
+type Enlisted @entity(immutable: true) {
+  id: Bytes!
+  account: Bytes!
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
 }

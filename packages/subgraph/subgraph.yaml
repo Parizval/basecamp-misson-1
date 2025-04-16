@@ -6,10 +6,10 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: Enlist
-    network: localhost
+    network: base-sepolia
     source:
       abi: Enlist
-      address: "0x610178dA211FEF7D417bC0e6FeD39F05609AD788"
+      address: "0xBE14c6AC70136A14E73dc174eB5d9f0b5c4dea7a"
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.7
